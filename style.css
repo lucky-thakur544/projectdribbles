@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+    font-family:serif;
+    
+}
+header{
+    padding: 10px 10px;
+    border: none;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+ul{
+    display: flex;
+    gap: 65px;
+    font-size: 15x;
+    
+}
+.logo{
+    font-size: 20px;
+}
+
+input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    
+}
+.search-bar{
+    background-color: rgb(243, 238, 238);
+    height:40px;
+    padding: 5px 10px;
+    border-radius: 18px;
+    align-content: center;
+    border: none;
+    color: black;
+}
+.btn-container{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn-sign{
+    width: 65px;
+    background-color: transparent;
+    border-radius: 18px;
+    border: none;
+
+}
+.btn-sign1{
+    width: 65px;
+border: none;
+    background-color: black;
+    color:white;
+    border-radius: 18px;
+}
+.center-btn{
+    background-color: pink;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top:88px;
+    animation-name: bg-color-change;
+animation-duration: 12s;
+animation-iteration-count: infinite;
+animation-timing-function: all linear .1s;
+}
+@keyframes bg-color-change {
+    
+    0%{
+        background-color: pink;
+        
+    }
+    25%{
+        background-color: lightgray;
+    } 
+    50%{
+        background-color:lightblue;
+    } 
+    75%{
+        background-color:plum;
+    }
+    100%{
+        background-color:rgb(236, 191, 191);
+    }
+}
+.main-container{
+    height: 65vh;
+    margin-top: 50px;
+    text-align: center;
+}
+.heading1{
+    font-family: sans-serif;
+    font-size: 80px;
+}
+.main-div{
+    margin-left:85px;
+    height: 600px;
+}
+.p1{
+    margin-top: 10px;
+font-size: 25px;
+font-family:serif;
+}
+.btn2{
+    margin-top: 35px;
+    height: 60px;
+    width: 110px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.slider{
+    border: 2px solid blue;
+    /* height: 74vh; */
+    
+overflow: hidden;
+white-space: nowrap;
+}
+ .container1{
+    display: inline-block;
+    animation-name: animi;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    div{
+        display: inline-block;
+    }
+}
+
+
+.grid-div-1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/elif.webp");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+
+   
+
+}
+.grid-div-2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/img.png");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+    
+
+}
+.grid-div-3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/pic.webp");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+    
+ 
+
+}
+.grid-div-4{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/pic2.webp");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+   
+    
+ }
+ .grid-div-5{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/pic3.webp");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+     
+    
+
+}
+.grid-div-6{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/pic4.webp");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+    
+
+}
+.grid-div-7{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/pic5.webp");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+    
+}
+.grid-div-8{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("image/vedio1.mp4");
+    background-size: cover;
+border-radius: 18px;
+    margin: 5px 10px;
+    border:none;
+    width: 250px;
+    height: 300px;
+    
+
+}
+@keyframes animi {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+.third-section{
+    height: 230vh; 
+    h1{
+        text-align: center;
+        font-size: 55px;
+    }
+}
+    .card-container {
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        grid-template-rows: 3fr 3fr 3fr 3fr;
+        gap:15px;
+      }
+      .cardimg{
+        width:250px;
+        height: 205px;
+        border-radius: 20px;
+      }
+      
+.card{
+    margin:  5px 5px;
+    border:none;
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+
+    
+}
+.caption{
+    display: flex;
+     margin-top: 290px;
+    margin-left: 20px;
+    align-items: center;
+}
+.namesection{
+    display: flex;
+}
+.icon-section{
+    display:flex;
+}
+.card-btn{
+
+    border-radius: 20px;
+    width: 200px; 
+    height: 40px;
+     margin: 100px 600px; 
+
+}
+.fourth-section{
+    border:none;
+    background-color:rgb(253, 208, 124);
+     height: 110vh; 
+     align-content: center;
+}
+    .fourth-container{
+         margin: 20px;
+        border:none;
+        height: 70vh;
+        text-align: center;
+
+    }
+    .fourth-div1{
+
+        h1{
+            
+            font-size: 70px;
+    font-family: sans-serif;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+    }
+    .fourth-div2{
+        margin-top: 25px;
+        button{
+            padding: 17px 20px;
+            border-radius: 30px;
+            border: none;
+        }
+        .four-btn{
+            background-color: black;
+            color: white;
+        }
+
+    }
+    .fourth-div3{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        h3{
+            
+            font-size: 30px;
+        }
+        a{
+            font-size: 30px;
+        }
+    
+    }
+
+.five-section{
+    border: none;
+    height: 74vh;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.five-container{
+    margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+
+}
+.five-div1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 18px;
+     border:none;
+     margin: 10px;
+     width: 200px;
+    height: 250px; 
+    display: inline-block;
+    animation-name: animi;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all ease 2s;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+.six-section{
+    height: 35vh;
+    display: flex;
+justify-content: space-between;
+    gap: 20px;
+    padding: 5px 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    div{
+        display: flex;
+        gap: 20px;
+    }
+} 
+   
