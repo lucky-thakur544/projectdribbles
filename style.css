@@ -101,7 +101,7 @@ animation-timing-function: all linear .1s;
     }
 }
 .main-container{
-    height: 65vh;
+    height: 40vh;
     margin-top: 50px;
     text-align: center;
 }
@@ -129,7 +129,7 @@ font-family:serif;
 }
 .slider{
     border:none;
-    height: 74vh;
+    height: 100vh;
     
 overflow: hidden;
 white-space: nowrap;
@@ -144,6 +144,14 @@ white-space: nowrap;
     div{
         display: inline-block;
     }
+   button{
+    border-radius: 20px;
+    width: 50px;
+    margin-left: 20px;
+   }
+   .heading2{
+    margin-top: 200px;
+   }
 }
 
 
@@ -156,9 +164,6 @@ border-radius: 18px;
     border:none;
     width: 250px;
     height: 300px;
-
-   
-
 }
 .grid-div-2{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -256,14 +261,16 @@ border-radius: 18px;
   
 
 .third-section{
-    height: 230vh; 
+    height: 270vh; 
     h1{
         text-align: center;
         font-size: 55px;
+        font-weight: 10px;
+        font-family: sans-serif;
     }
 }
     .card-container {
-        margin: 20px 20px;
+        margin: 50px 20px;
         display: grid;
         grid-template-columns: 3fr 3fr 3fr 3fr;
         grid-template-rows: 3fr 3fr 3fr 3fr;
